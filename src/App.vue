@@ -10,6 +10,7 @@
           <div class="hidden md:flex items-center space-x-8">
             <a href="#summary" class="text-gray-600 hover:text-primary">Summary</a>
             <a href="#skills" class="text-gray-600 hover:text-primary">Skills</a>
+            <a href="#projects" class="text-gray-600 hover:text-primary">Projects</a>
             <a href="#experience" class="text-gray-600 hover:text-primary">Experience</a>
             <a href="#education" class="text-gray-600 hover:text-primary">Education</a>
             <a href="#certifications" class="text-gray-600 hover:text-primary">Certifications</a>
@@ -37,10 +38,10 @@
         <h2 class="section-title">Summary</h2>
         <div class="card">
           <p class="text-lg leading-relaxed">
-            I am a Mobile Money Integration Specialist, working for Telekom Networks Malawi and TNM Mpamba. 
-            I have experience designing mobile money solutions from business requirements, algorithms, databases, 
-            websites and other software products for TNM Mpamba. I also provide digital solutions to startups 
-            and already-established corporations.
+            I am a Mobile Money Integration Specialist, working for Telekom Networks Malawi and TNM
+            Mpamba. I have experience designing mobile money solutions from business requirements,
+            algorithms, databases, websites and other software products for TNM Mpamba. I also
+            provide digital solutions to startups and already-established corporations.
           </p>
         </div>
       </section>
@@ -85,17 +86,78 @@
         </div>
       </section>
 
+      <!-- Projects Section -->
+      <section id="projects" class="mb-16">
+        <h2 class="section-title">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="card hover:shadow-lg transition-shadow duration-300">
+            <a
+              href="https://github.com/Rab-son/news-app"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block"
+            >
+              <h3 class="text-xl font-semibold mb-2">News Rooms App</h3>
+              <p class="text-gray-600">A modern news application built with React-native and News API</p>
+            </a>
+          </div>
+          <div class="card hover:shadow-lg transition-shadow duration-300">
+            <a
+              href="https://github.com/Rab-son/financial-advisor"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block"
+            >
+              <h3 class="text-xl font-semibold mb-2">Financial Advisor</h3>
+              <p class="text-gray-600">
+                Financial advisory platform with personalized recommendations
+              </p>
+            </a>
+          </div>
+          <div class="card hover:shadow-lg transition-shadow duration-300">
+            <a
+              href="https://rabadminmysite.netlify.app/login"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block"
+            >
+              <h3 class="text-xl font-semibold mb-2">Admin Dashboard</h3>
+              <p class="text-gray-600">Custom admin dashboard for task management</p>
+            </a>
+          </div>
+          <div class="card hover:shadow-lg transition-shadow duration-300">
+            <a
+              href="https://github.com/Rab-son/harvest_hub.git"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block"
+            >
+              <h3 class="text-xl font-semibold mb-2">Harvest Hub</h3>
+              <p class="text-gray-600">Agricultural marketplace connecting farmers and buyers</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
       <!-- Experience Section -->
       <section id="experience" class="mb-16">
         <h2 class="section-title">Experience</h2>
         <div class="space-y-8">
           <div class="card">
             <h3 class="text-xl font-semibold">Mobile Money Integrations Specialist</h3>
-            <p class="text-gray-600">Telekom Networks Malawi | Blantyre, Malawi | April 2023 - Present</p>
+            <p class="text-gray-600">
+              Telekom Networks Malawi | Blantyre, Malawi | April 2023 - Present
+            </p>
             <ul class="list-disc list-inside mt-4 space-y-2">
-              <li>Supported the TNM Mpamba platform, ensuring continuous, stable, and efficient operations</li>
+              <li>
+                Supported the TNM Mpamba platform, ensuring continuous, stable, and efficient
+                operations
+              </li>
               <li>Developed and deployed a new streamlined TNM Mpamba USSD Application</li>
-              <li>Managed integrations with third parties like Terrapay, DPO, and various local services</li>
+              <li>
+                Managed integrations with third parties like Terrapay, DPO, and various local
+                services
+              </li>
               <li>Modified over 4,000 customer USSD notifications</li>
               <li>Migrated 90+ services to a new streamlined menu within 3 months</li>
             </ul>
@@ -103,11 +165,16 @@
 
           <div class="card">
             <h3 class="text-xl font-semibold">Remote Software Engineer</h3>
-            <p class="text-gray-600">Maravi Commodity Traders Limited | Lilongwe, Malawi | Jun 2022 - December 2022</p>
+            <p class="text-gray-600">
+              Maravi Commodity Traders Limited | Lilongwe, Malawi | Jun 2022 - December 2022
+            </p>
             <ul class="list-disc list-inside mt-4 space-y-2">
               <li>Managed the company's website, ensuring SSL certificate activation</li>
               <li>Supervised and managed software engineering projects</li>
-              <li>Designed and developed an e-commerce platform using Laravel, Vue.JS, and Tailwind CSS</li>
+              <li>
+                Designed and developed an e-commerce platform using Laravel, Vue.JS, and Tailwind
+                CSS
+              </li>
             </ul>
           </div>
 
@@ -115,7 +182,9 @@
             <h3 class="text-xl font-semibold">Remote Software Engineer</h3>
             <p class="text-gray-600">University of Malawi | Zomba, Malawi | Oct 2020 - Nov 2022</p>
             <ul class="list-disc list-inside mt-4 space-y-2">
-              <li>Designed and developed user interfaces for NAMIS and UNDP's Waste Management System</li>
+              <li>
+                Designed and developed user interfaces for NAMIS and UNDP's Waste Management System
+              </li>
               <li>Provided technical support and consultation for system inconsistencies</li>
             </ul>
           </div>
@@ -128,7 +197,9 @@
         <div class="space-y-6">
           <div class="card">
             <h3 class="text-xl font-semibold">University of Malawi</h3>
-            <p class="text-gray-600">Bachelor of Science (Computer Science and Mathematics) | 2020</p>
+            <p class="text-gray-600">
+              Bachelor of Science (Computer Science and Mathematics) | 2020
+            </p>
           </div>
           <div class="card">
             <h3 class="text-xl font-semibold">University of the People</h3>
@@ -136,7 +207,9 @@
           </div>
           <div class="card">
             <h3 class="text-xl font-semibold">University of the People</h3>
-            <p class="text-gray-600">Associate of Science In Computer Science | 2021 | cGPA: 3.78</p>
+            <p class="text-gray-600">
+              Associate of Science In Computer Science | 2021 | cGPA: 3.78
+            </p>
           </div>
         </div>
       </section>
@@ -151,7 +224,9 @@
           </div>
           <div class="card">
             <h3 class="text-xl font-semibold">University of Alberta</h3>
-            <p class="text-gray-600">Software Design and Architecture Specialization Certificate | 2024</p>
+            <p class="text-gray-600">
+              Software Design and Architecture Specialization Certificate | 2024
+            </p>
           </div>
           <div class="card">
             <h3 class="text-xl font-semibold">Holberton Inc</h3>
@@ -159,7 +234,9 @@
           </div>
           <div class="card">
             <h3 class="text-xl font-semibold">Huawei Global Training Center</h3>
-            <p class="text-gray-600">Mobile Wallet Instance Configuration Professional Practice Certificate | 2023</p>
+            <p class="text-gray-600">
+              Mobile Wallet Instance Configuration Professional Practice Certificate | 2023
+            </p>
           </div>
         </div>
       </section>
@@ -218,4 +295,4 @@
 
 <script setup>
 import MobileNav from './components/MobileNav.vue'
-</script> 
+</script>
